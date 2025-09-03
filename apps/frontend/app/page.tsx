@@ -14,10 +14,10 @@ function App() {
               Collaborative Whiteboarding
               <span className="text-primary block">Made Simple</span>
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
+            <div className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Create, collaborate, and share beautiful diagrams and sketches with our intuitive drawing tool. 
               No sign-up required.
-            </p>
+            </div>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link href={"/signin"}>
                 <Button variant={"primary"} size="lg" className="h-12 px-6">
@@ -46,9 +46,9 @@ function App() {
                 </div>
                 <h3 className="text-xl font-semibold">Real-time Collaboration</h3>
               </div>
-              <p className="mt-4 text-muted-foreground">
+              <div className="mt-4 text-muted-foreground">
                 Work together with your team in real-time. Share your drawings instantly with a simple link.
-              </p>
+              </div>
             </Card>
 
             <Card className="p-6 border-2 hover:border-primary transition-colors">
@@ -58,9 +58,9 @@ function App() {
                 </div>
                 <h3 className="text-xl font-semibold">Multiplayer Editing</h3>
               </div>
-              <p className="mt-4 text-muted-foreground">
+              <div className="mt-4 text-muted-foreground">
                 Multiple users can edit the same canvas simultaneously. See who's drawing what in real-time.
-              </p>
+              </div>
             </Card>
 
             <Card className="p-6 border-2 hover:border-primary transition-colors">
@@ -70,9 +70,9 @@ function App() {
                 </div>
                 <h3 className="text-xl font-semibold">Smart Drawing</h3>
               </div>
-              <p className="mt-4 text-muted-foreground">
+              <div className="mt-4 text-muted-foreground">
                 Intelligent shape recognition and drawing assistance helps you create perfect diagrams.
-              </p>
+              </div>
             </Card>
           </div>
         </div>
@@ -86,9 +86,9 @@ function App() {
               <h2 className="text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl">
                 Ready to start creating?
               </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg text-primary-foreground/80">
+              <div className="mx-auto mt-6 max-w-xl text-lg text-primary-foreground/80">
                 Join thousands of users who are already creating amazing diagrams and sketches.
-              </p>
+              </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Button size="lg" variant="secondary" className="h-12 px-6">
                   Open Canvas
@@ -107,9 +107,9 @@ function App() {
       <footer className="border-t">
         <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-            <p className="text-sm text-muted-foreground">
+            <div className="text-sm text-muted-foreground">
               © 2024 Excalidraw Clone. All rights reserved.
-            </p>
+            </div>
             <div className="flex space-x-6">
               <a href="https://github.com" className="text-muted-foreground hover:text-primary">
                 <Github className="h-5 w-5" />
